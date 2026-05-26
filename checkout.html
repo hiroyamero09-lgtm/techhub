@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Checkout | TechHub</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+
+    <div class="logo">
+      TechHub
+    </div>
+
+    <ul class="nav-links">
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="products.html">Products</a></li>
+
+      <li><a href="cart.html">Cart</a></li>
+
+      <li><a href="checkout.html">Checkout</a></li>
+
+    </ul>
+
+  </nav>
+
+  <!-- CHECKOUT -->
+
+  <section class="checkout-section">
+
+    <h1 class="section-title">
+      Checkout
+    </h1>
+
+    <form class="checkout-form" onsubmit="placeOrder(event)">
+
+  <h2>Complete Your Order</h2>
+
+      <input type="text" placeholder="Full Name" required>
+
+      <input type="email" placeholder="Email Address" required>
+
+      <input type="text" placeholder="Shipping Address" required>
+
+      <input type="text" placeholder="Phone Number" required>
+
+      <button type="submit">
+        Place Order
+      </button>
+
+    </form>
+
+  </section>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
